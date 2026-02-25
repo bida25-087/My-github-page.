@@ -26,11 +26,17 @@ body { font-family: Arial, sans-serif;
 
 header { 
 
-    background-color: #af1e78; 
+    background-color: #4c93af;
 
-    color: white; 
+    background-size: cover; 
 
-    padding: 20px; 
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    color: #f9f9f9;
+
+    padding:  20px; 
 
     text-align: center; 
 
