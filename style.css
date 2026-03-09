@@ -32,8 +32,66 @@ header {
 
 } 
 
+shop.html {
+    text-align:center;
+    background-color:#ffe6f0;
+    padding:40px;
+}
  
+.products{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap: wrap;
+}
+ 
+.product{
+    background:#f2c6d6;
+    border-radius:15px;
+    padding:15px;
+    width:220px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+ 
+.products img{
+    width:100%;
+    height: auto;
+    border-radius:10px;
 
+}
+ 
+button{
+    background-color:#ff66a3;
+    border:none;
+    padding:10px;
+    color:white;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+
+table{
+width:80%;
+margin:auto;
+border-collapse:collapse;
+}
+ 
+th, td{
+border:1px solid #ccc;
+padding:10px;
+text-align:center;
+}
+ 
+th{
+background-color:#ff99cc;
+color:white;
+}
+ 
+tr:nth-child(even){
+background-color:#ffe6f2;
+}
+
+ 
 section { 
 
     padding: 40px 20px
