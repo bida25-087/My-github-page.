@@ -4,9 +4,13 @@ body { font-family: Arial, sans-serif;
 
     background: #faf7f9; 
 
-    margin: 0; 
+    margin: 0;
 
+    background-image: url(https://th.bing.com/th/id/R.736fc9108d5e4bd406bd84824d514794?rik=BJIY0Q%2f%2fK7HHkA&pid=ImgRaw&r=0);
     
+    background-size: cover;
+
+    background-position: center;
 }
 
 
@@ -40,6 +44,7 @@ shop.html {
  
 .products{
     display:flex;
+    flex-direction: column;
     justify-content:center;
     gap:20px;
     flex-wrap: wrap;
@@ -168,5 +173,63 @@ button {
 
      
 
-} 
+}
+
+body.login.html {
+    background-color:#b30059;
+    font-family:Arial;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+ 
+.login-box{
+    background-color:#ff66a3;
+    padding:40px;
+    border-radius:15px;
+    width:300px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+    text-align:center;
+}
+ 
+h2.login.html {
+    color:white;
+}
+ 
+label.login.html{
+    display:block;
+    margin-top:10px;
+    color:white;
+}
+ 
+input.login.html{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    border:none;
+    border-radius:8px;
+}
+ 
+button.login.html{
+    margin-top:15px;
+    width:100%;
+    padding:10px;
+    background-color:#800040;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+ 
+button:hover.login.html{
+    background-color:#660033;
+}
+ 
+a{
+    color:white;
+}
+
+
+
 
