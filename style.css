@@ -175,56 +175,92 @@ button {
 
 }
 
-body.login.html {
-    background-color:#b30059;
-    font-family:Arial;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:100vh;
+.productreviews.html {
+
+margin-top: 30px;
+
 }
- 
-.login-box{
-    background-color:#ff66a3;
-    padding:40px;
-    border-radius:15px;
-    width:300px;
-    box-shadow:0 5px 15px rgba(0,0,0,0.3);
-    text-align:center;
+
+
+
+.productreviews-card {
+
+background: #b04a6f;
+padding: 15px;
+
+margin: 15px auto;
+
+border-radius: 12px;
+
+max-width: 500px;
+
+box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+
 }
- 
-h2.login.html {
-    color:white;
+
+
+.productreviews-header {
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
 }
- 
-label.login.html{
-    display:block;
-    margin-top:10px;
-    color:white;
+
+
+
+/* Profile + name */
+
+.user-info {
+
+display: flex;
+
+align-items: center;
+
+gap: 10px;
+
 }
- 
-input.login.html{
-    width:100%;
-    padding:10px;
-    margin-top:5px;
-    border:none;
-    border-radius:8px;
+
+
+.user-info img {
+
+    width: 40px;
+
+    height: 40px; 
+    
+    border-radius: 50%; /* makes it round */
+
 }
- 
-button.login.html{
-    margin-top:15px;
-    width:100%;
-    padding:10px;
-    background-color:#800040;
-    color:white;
-    border:none;
-    border-radius:8px;
-    cursor:pointer;
+
+
+
+.name {
+
+font-weight: bold;
+
 }
- 
-button:hover.login.html{
-    background-color:#660033;
+
+
+
+.date {
+
+font-size: 12px;
+
+color: gray;
+
 }
+
+
+.stars {
+
+color: gold;
+
+margin: 8px 0;
+
+}
+
  
 a{
     color:white;
