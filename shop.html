@@ -1,19 +1,19 @@
-<section id="shop">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blossom Boutique</title>
 
-
-    <head>
-     <title>🌸 Blossom Boutique 🌸</title>  
-     <link rel="stylesheet" href="style.css">
-    </head>
-
-    
-    <h2>Shop our collection</h2> 
-
-    
-
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="shop-page">
+  
+  <header>
+    <div class="logo"> 🌸 Blossom Boutique 🌸</div>
     <nav>
-
-            <a href="index.html">Home</a>
+       <a href="index.html">Home</a>
             
             <a href="shop.html">shop</a>
 
@@ -23,13 +23,19 @@
 
             <a href="productreviews.html">Reviews</a>
 
-            
+    </nav>
+  </header>
 
-        </nav>
 
-    <h2>Product Price List</h2>
+  <h2>Product Price List</h2>
+
+
+    <h3>Feautured Collection</h3>
  
-<table>
+
+
+
+    <table>
 <tr>
 <th>Item</th>
 <th>Price</th>
@@ -37,25 +43,25 @@
 </tr>
  
 <tr>
-<td>Summer Dress</td>
-<td>P150</td>
+<td>Pink floral dress</td>
+<td>P250</td>
 <td>In Stock</td>
 </tr>
  
 <tr>
-<td>Pleated Skirt</td>
-<td>P55</td>
+<td>Soft Blush Top</td>
+<td>P100</td>
 <td>Available</td>
 </tr>
  
 <tr>
 <td>Ruffle Blouse</td>
-<td>P100</td>
+<td>P400</td>
 <td>Limited</td>
 
 <tr>
-<td>soft cardigan</td>
-<td>P50</td>
+<td>Elegant Rose Skirt</td>
+<td>P300</td>
 <td>Available</td>
 </tr>
 
@@ -64,23 +70,59 @@
 </table>
  
  
-  <div class="products">
-        <div class="product">
-            <img src="https://i.pinimg.com/736x/9a/21/84/9a2184ef4ba77508193bd0f865b65e69.jpg" alt="summer dress" style="width:50%; border-radius:8px;">
-            <p>Summer Dress<br>P150</p>
-        </div>
-        <div class="product">
-            <img src="https://tse4.mm.bing.net/th/id/OIP.XYK8Azv5uq4VpNbI5qMwEgHaJ3?w=600&h=799&rs=1&pid=ImgDetMain&o=7&rm=3" ait="pleated Skirt" style="width:50%; border-radius:8px;">
-            <p>Pleated Skirt<br>P55</p>
-        </div>
-        <div class="product">
-            <img src="https://i.pinimg.com/originals/b5/9f/a4/b59fa4f662ededb1402452e88c7769b6.jpg" alt="Ruffle Blouse" style="width:50%;border-radius:8px;">
-            <p>Ruffle Blouse<br>P100</p>
+  
+<section class="shop">
+  <h2>Shop Our Collection</h2>
 
-        <div class="product">
-            <img src="https://i.etsystatic.com/29824592/r/il/fe4c07/4424356480/il_1080xN.4424356480_pwii.jpg" alt="Soft cardigan" style="width:50%;border-radius:8px;">
-            <p>Soft cardigan<br>P50</p>
-            </div>    
-        </div>
+  
+  <div class="shop-filters">
+    <button class="filter-btn active" data-category="all">All</button>
+    <button class="filter-btn" data-category="dress">Dresses</button>
+    <button class="filter-btn" data-category="tops">Tops</button>
+    <button class="filter-btn" data-category="handbags">Handbags</button>
+    <button class="filter-btn" data-category="heels">Heels</button>
+  </div>
+
+  
+  <div class="shop-grid">
+
+    <div class="product-card dress">
+    <div class="collection-grid">
+     <img src="https://tse4.mm.bing.net/th/id/OIP.pZaZ5x0JnL3l8aGl6k6LhQHaJQ?rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+      <h3>Floral Pink Dress</h3>
+      <p class="price">P450.00</p>
+      <button class="shop-btn">Add to Cart</button>
     </div>
+
+    <div class="product-card tops">
+      <img src="https://www.keikei.com/_next/image?url=https:%2F%2Fcloud.keikei.com%2Fcdn%2Fproducts%2F5%2F57599%2F910111_040_HA.webp%3Fa%3Dgvw76&w=1920&q=75" alt="">
+      <h3>Soft Blush Top</h3>
+      <p class="price">P280.00</p>
+      <button class="shop-btn">Add to Cart</button>
+    </div>
+
+    <div class="product-card handbags">
+        <img src="https://ae01.alicdn.com/kf/H4c07a7ddbced478e890171e17810d0b1D/Newposs-Famous-Designer-Brand-Bags-Women-Leather-Handbags-2020-Luxury-Ladies-Hand-Bags-Purse-Fashion-Shoulder.jpg" alt="">
+      <h3> Handbag</h3>
+      <p class="price">P600.00</p>
+      <button class="shop-btn">Add to Cart</button>
+    </div>
+
+    <div class="product-card heels">
+      <img src="https://i.pinimg.com/originals/c6/52/37/c652372674f0c62552fccf4cf4e75641.jpg" alt="">
+      <h3>Elegant Black Heels</h3>
+      <p class="price">P550.00</p>
+      <button class="shop-btn">Add to Cart</button>
+    </div>
+
+    <div class="product-card dress">
+      <img src="https://rimeshop.com/wp-content/uploads/imgs/dresses/1001495_1.jpg" alt="">
+      <h3>Chiffon Rose Dress</h3>
+      <p class="price">P480.00</p>
+      <button class="shop-btn">Add to Cart</button>
+    </div>
+
+  </div>
 </section>
+
+<script src="script.js"></script>
