@@ -1,6 +1,4 @@
-/* =====================
-   COLOR PALETTE
-   ===================== */
+
 :root {
   --pink-light: #fde2e8;
   --pink-soft: #f8b7c8;
@@ -10,9 +8,7 @@
   --white: #ffffff;
 }
 
-/* =====================
-   GLOBAL STYLES
-   ===================== */
+
 * {
   margin: 0;
   padding: 0;
@@ -25,9 +21,7 @@ body {
   color: var(--text-dark);
 }
 
-/* =====================
-   HEADER
-   ===================== */
+
 header {
   background-color: var(--white);
   padding: 20px 40px;
@@ -57,9 +51,7 @@ nav li:hover {
   color: var(--pink-dark);
 }
 
-/* =====================
-   HERO SECTION
-   ===================== */
+
 .hero {
   display: flex;
   align-items: center;
@@ -156,9 +148,6 @@ nav li:hover {
   margin-bottom: 15px;
 }
 
-/* =====================
-   FOOTER
-   ===================== */
 footer {
   background-color: var(--pink-dark);
   color: var(--white);
@@ -179,7 +168,6 @@ footer {
   margin-bottom: 30px;
 }
 
-/* FILTER BUTTONS */
 .shop-filters {
   display: flex;
   justify-content: center;
@@ -204,14 +192,15 @@ footer {
   color: var(--white);
 }
 
-/* PRODUCT GRID */
+
 .shop-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 35px;
+  width: 100%;
+  height: 200px;
 }
 
-/* PRODUCT CARD */
 .product-card {
   background-color: var(--white);
   border-radius: 18px;
@@ -253,12 +242,6 @@ footer {
 .shop-btn:hover {
   background-color: var(--pink-dark);
 }
-
-
-
-
-
-
 
 table{
 width:80%;
@@ -395,10 +378,6 @@ align-items: center;
 
 }
 
-
-
-
-
 .user-info {
 
 display: flex;
@@ -420,194 +399,156 @@ gap: 10px;
 
 }
 
-
-
 .contact-page .container {
 
-    display: flex;
+display: flex;
 
-    gap: 30px;
+gap: 30px;
 
-    padding: 30px 50px;
+padding: 30px 50px;
 
-    align-items: flex-start;
+align-items: flex-start;
 
 }
-
- 
-
-/* LEFT SIDE (FORM) */
 
 .contact-page .form-box {
 
-    flex: 2;
+flex: 2;
 
-    background: #fff;
+background: #fff;
 
-    padding: 20px;
+padding: 20px;
 
-    border-radius: 10px;
+border-radius: 10px;
 
 }
-
- 
-
-/* RIGHT SIDE */
 
 .contact-page .side {
 
-    flex: 1;
+flex: 1;
 
-    display: flex;
+display: flex;
 
-    flex-direction: column;
+flex-direction: column;
 
-    gap: 20px;
+gap: 20px;
 
 }
-
- 
-
-/* CONTACT INFO */
 
 .contact-page .info {
 
-    background: #fff;
+background: #fff;
 
-    padding: 20px;
+padding: 20px;
 
-    border-radius: 10px;
+border-radius: 10px;
 
 }
 
- 
-
-/* ORDER BOX */
-
 .contact-page .order {
+background: linear-gradient(to right, pink, purple);
 
-    background: linear-gradient(to right, pink, purple);
+color: white;
 
-    color: white;
+padding: 20px;
 
-    padding: 20px;
-
-    border-radius: 10px;
+border-radius: 10px;
 
 }
 
 .about-page {
 
-    font-family: Arial, sans-serif;
+font-family: Arial, sans-serif;
 
-    margin: 0;
+margin: 0;
 
-    color: #333;
+color: #333;
 
 }
-
- 
-
-/* Our Story section */
 
 .about-page .about {
 
-    text-align: center;
+text-align: center;
 
-    padding: 50px 20px 20px; /* extra space at top */
+padding: 50px 20px 20px; /* extra space at top */
 
 }
-
- 
 
 .about-page .about h1 {
 
-    color: #c94f7c;
+color: #c94f7c;
 
-    margin-bottom: 15px;
+margin-bottom: 15px;
 
 }
 
- 
 
 .about-page .about p {
 
-    max-width: 800px;
+max-width: 800px;
 
-    margin: 10px auto;
+margin: 10px auto;
 
 }
-
- 
-
-/* 4-box layout */
 
 .about-page .info {
 
-    display: flex;
+display: flex;
 
-    justify-content: center;
+justify-content: center;
 
-    gap: 40px;
+gap: 40px;
 
-    padding: 30px 20px 50px; /* space between story & boxes */
+padding: 30px 20px 50px; /* space between story & boxes */
 
 }
 
- 
+
 
 .about-page .column {
 
-    display: flex;
+display: flex;
 
-    flex-direction: column;
+flex-direction: column;
 
-    gap: 20px;
+gap: 20px;
 
 }
-
- 
-
-/* Cards + hover */
 
 .about-page .card {
 
-    width: 300px;
+width: 300px;
 
-    padding: 20px;
+padding: 20px;
 
-    border-radius: 10px;
+border-radius: 10px;
 
-    background: #fafafa;
+background: #fafafa;
 
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 
-    transition: 0.3s;
+transition: 0.3s;
 
 }
 
- 
 
 .about-page .card:hover {
 
-    transform: translateY(-6px);
+transform: translateY(-6px);
 
-    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+box-shadow: 0 8px 18px rgba(0,0,0,0.15);
 
 }
 
- 
 
 .about-page .card h2 {
-
-    color: #c94f7c;
+color: #c94f7c;
 
 }
 
- 
 
 .about-page .card:hover h2 {
 
-    color: #a63d65;
+color: #a63d65;
 
 }
