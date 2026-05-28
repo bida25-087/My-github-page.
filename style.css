@@ -23,7 +23,7 @@ body {
 
 
 header {
-  background-color: var(--white);
+  background-color: #ffe4ec;
   padding: 20px 40px;
   display: flex;
   justify-content: space-between;
@@ -171,6 +171,7 @@ footer {
 
 .shop-buttons {
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .shop-buttons button {
@@ -348,6 +349,8 @@ border-radius: 12px;
 max-width: 500px;
 
 box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+
+text-align:center;
 
 }
 
